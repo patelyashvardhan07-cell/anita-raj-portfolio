@@ -1,0 +1,217 @@
+import { paintingImage } from '../utils/imagePath'
+
+export const categories = [
+  { id: 'all', label: 'All Works' },
+  { id: 'window', label: 'Through the Window' },
+  { id: 'haveli', label: 'Havelis & Forts' },
+  { id: 'portrait', label: 'Portraits & Figures' },
+  { id: 'detail', label: 'Architectural Details' },
+  { id: 'devotional', label: 'Sacred & Devotional' },
+]
+
+export const collections = [
+  {
+    id: 'window',
+    title: 'Through the Window',
+    description:
+      'A continuing series gazing through carved jharokhas — where stone lace frames glimpses of courtyard life, desert light, and quiet longing.',
+    cover: paintingImage('PHOTO-2026-05-15-16-03-47.jpg'),
+    count: 7,
+  },
+  {
+    id: 'haveli',
+    title: 'Golden Havelis',
+    description:
+      'Monumental studies of Jaisalmer sandstone mansions — every chhatri, jaali, and jharokha rendered in warm ochre and gold.',
+    cover: paintingImage('PHOTO-2026-05-15-16-32-02.jpg'),
+    count: 4,
+  },
+  {
+    id: 'portrait',
+    title: 'Royal Portraits',
+    description:
+      'Women of Rajasthan in miniature-inspired compositions — Bani Thani elegance, palace interiors, and Rajput valor.',
+    cover: paintingImage('PHOTO-2026-05-15-16-10-22.jpg'),
+    count: 3,
+  },
+  {
+    id: 'devotional',
+    title: 'Sacred Architecture',
+    description:
+      'Devotional niches and jharokhas housing Shrinathji and Ram Darbar — where faith meets carved stone.',
+    cover: paintingImage('PHOTO-2026-05-15-16-35-04.jpg'),
+    count: 2,
+  },
+]
+
+export const paintings = [
+  {
+    id: 1,
+    title: 'Through the Window',
+    category: 'window',
+    series: 'Through the Window',
+    medium: 'Oil on canvas',
+    year: 'SOLD',
+    size: '34 × 36 ',
+    image: paintingImage('PHOTO-2026-05-15-16-03-47.jpg'),
+    featured: true,
+    large: true,
+  },
+  {
+    id: 2,
+    title: 'Royal Whispers',
+    category: 'portrait',
+    medium: 'Oil on linen',
+    year: 'SOLD',
+    size: '36 × 48 ',
+    image: paintingImage('PHOTO-2026-05-15-16-06-01.jpg'),
+    featured: true,
+    large: true,
+  },
+  {
+    id: 3,
+    title: 'Bani Thani',
+    category: 'portrait',
+    medium: 'Oil on canvas',
+    year: 2022,
+    size: '30 × 30 in',
+    image: paintingImage('PHOTO-2026-05-15-16-10-22.jpg'),
+    featured: true,
+  },
+  {
+    id: 4,
+    title: 'The Teal Jharokha',
+    category: 'detail',
+    series: 'Through the Window',
+    medium: 'Oil on canvas',
+    year: "SOLD",
+    size: '18 × 24 in',
+    image: paintingImage('PHOTO-2026-05-15-16-13-23.jpg'),
+  },
+  
+  {
+    id: 6,
+    title: 'Two Pigeons ',
+    category: 'detail',
+    series: 'Through the Window',
+    medium: 'Oil on canvas',
+    year: 2022,
+    size: '16 × 20 in',
+    image: paintingImage('WhatsApp Image 2026-05-15 at 16.13.23 (2).jpeg'),
+  },
+  {
+    id: 7,
+    title: 'Pigeons at the Jharokha',
+    category: 'detail',
+    series: 'Through the Window',
+    medium: 'Oil on canvas',
+    year: "SOLD",
+    size: '36 × 48 in',
+    image: paintingImage('WhatsApp Image 2026-05-15 at 16.13.23.jpeg'),
+  },
+  {
+    id: 8,
+    title: 'Whispering Windows',
+    category: 'window',
+    series: 'Through the Window',
+    medium: 'Oil on canvas',
+    year: "SOLD",
+    size: '36 × 48 in',
+    image: paintingImage('PHOTO-2026-05-15-16-14-30.jpg'),
+    large: true,
+  },
+  {
+    id: 9,
+    title: 'Dreams Through the Window',
+    category: 'window',
+    series: 'Through the Window',
+    medium: 'Oil on canvas',
+    year: 2026,
+    size: '24 × 36 in',
+    image: paintingImage('PHOTO-2026-05-15-16-18-06.jpg'),
+  },
+  {
+    id: 10,
+    title: 'Conversations',
+    category: 'haveli',
+    medium: 'Oil on canvas',
+    year: "SOLD",
+    size: '36 × 48 in',
+    image: paintingImage('PHOTO-2026-05-15-16-29-53.jpg'),
+  },
+  {
+    id: 11,
+    title: 'Doves at the Jharokha',
+    category: 'window',
+    series: 'Through the Window',
+    medium: 'Oil on canvas',
+    year: "SOLD",
+    size: '18 × 24 in',
+    image: paintingImage('PHOTO-2026-05-15-16-30-39.jpg'),
+  },
+  {
+    id: 12,
+    title: ' Haveli series',
+    category: 'haveli',
+    medium: 'Oil on canvas',
+    year: "SOLD",
+    size: '34 × 36 in',
+    image: paintingImage('PHOTO-2026-05-15-16-32-02.jpg'),
+    featured: true,
+    large: true,
+  },
+  {
+    id: 13,
+    title: 'Haveli series',
+    category: 'haveli',
+    medium: 'Oil on canvas',
+    year: "SOLD",
+    size: '36 × 48 in',
+    image: paintingImage('PHOTO-2026-05-15-16-33-18.jpg'),
+  },
+  {
+    id: 14,
+    title: 'Ram Darbar Jharokha',
+    category: 'devotional',
+    medium: 'Oil on canvas',
+    year: 2026,
+    size: '24 × 24 in',
+    image: paintingImage('PHOTO-2026-05-15-16-35-04.jpg'),
+  },
+  {
+    id: 15,
+    title: 'Shakti',
+    category: 'portrait',
+    medium: 'Oil on canvas',
+    year: 2022,
+    size: '30 × 30 in',
+    image: paintingImage('PHOTO-2026-05-15-16-36-17.jpg'),
+  },
+  {
+    id: 16,
+    title: 'Through the window : Shrinathji',
+    category: 'devotional',
+    medium: 'Oil on canvas',
+    year: 2024,
+    size: '24 × 24 in',
+    image: paintingImage('PHOTO-2026-05-15-16-37-40.jpg'),
+  },
+  {
+    id: 17,
+    title: 'Peacock & Bougainvillea',
+    category: 'haveli',
+    medium: 'Oil on canvas',
+    year: "SOLD",
+    size: '34 × 36 in',
+    image: paintingImage('PHOTO-2026-05-15-16-42-07.jpg'),
+    large: true,
+  },
+  
+]
+
+export const featuredPainting =
+  paintings.find((p) => p.featured) ?? paintings[0]
+
+export const artistPhoto = paintingImage(
+  '8DC6BDE5-9B93-42E2-9A51-3D409CA21EF5.PNG',
+)
