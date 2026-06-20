@@ -213,5 +213,5 @@ export const featuredPainting =
   paintings.find((p) => p.featured) ?? paintings[0]
 
 export const artistPhoto = paintingImage(
-  '8DC6BDE5-9B93-42E2-9A51-3D409CA21EF5.PNG',
+  'Untitled design.png',
 )
