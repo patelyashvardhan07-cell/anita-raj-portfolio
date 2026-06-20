@@ -35,10 +35,7 @@ export default function Hero() {
           </div>
         </div>
         <figcaption className="hero-caption">
-          <strong>{featuredPainting.title}</strong>
-          <span>
-            {featuredPainting.medium} · {featuredPainting.year}
-          </span>
+          
         </figcaption>
       </div>
     </section>

@@ -18,7 +18,7 @@ export default function Contact() {
             <span>anitarajpatel.82@gmail.com</span>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/anita_raj.82?igsh=MWFhcHpydTdwa25yNg=="
             target="_blank"
             rel="noreferrer"
             className="contact-link"
